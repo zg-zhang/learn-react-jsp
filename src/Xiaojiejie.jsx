@@ -21,7 +21,12 @@ class Xiaojiejie extends Component {
                     {
                         this.state.list.map((item, index) => {
                             return (
-                               <XiaojiejieItem key={index + item}/>
+                               <XiaojiejieItem
+                                   content={item}
+                                   index={index}
+                                   handleClick={this.deleteItem.bind(this)}
+                                   key={index + item}
+                               />
                             )
                         })
                     }
@@ -44,6 +49,7 @@ class Xiaojiejie extends Component {
     }
 
     deleteItem(index) {
+        console.log(index)
         // 注意 React 中不允许直接改动 state 需要通过 setState 改动
         let list = this.state.list
         list.splice(index, 1)
