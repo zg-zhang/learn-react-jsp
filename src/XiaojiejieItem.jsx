@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import PropTypes from 'prop-types'
 
 class XiaojiejieItem extends Component {
     constructor(props) {
@@ -17,6 +18,12 @@ class XiaojiejieItem extends Component {
     handleClick() {
         this.props.handleClick(this.props.index)
     }
+}
+
+XiaojiejieItem.propTypes = {
+    content: PropTypes.string,
+    handleClick: PropTypes.func,
+    index: PropTypes.number
 }
 
 export default XiaojiejieItem

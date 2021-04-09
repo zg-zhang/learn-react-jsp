@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eeee7549-4da7-45e9-888c-45440c9db713" name="默认变更列表" comment="13 组件拆分">
+    <list default="true" id="eeee7549-4da7-45e9-888c-45440c9db713" name="默认变更列表" comment="14 父子组件传值">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Xiaojiejie.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xiaojiejie.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/XiaojiejieItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/XiaojiejieItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +59,7 @@
       <updated>1617959957691</updated>
       <workItem from="1617959959789" duration="4820000" />
       <workItem from="1617968106528" duration="120000" />
-      <workItem from="1617968237073" duration="1102000" />
+      <workItem from="1617968237073" duration="2073000" />
     </task>
     <task id="LOCAL-00001" summary="05 HelloWorld">
       <created>1617965355401</created>
@@ -102,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617968775017</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="14 父子组件传值">
+      <created>1617969386698</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1617969386698</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +135,7 @@
     <MESSAGE value="09 动态列表" />
     <MESSAGE value="10 列表删除" />
     <MESSAGE value="13 组件拆分" />
-    <option name="LAST_COMMIT_MESSAGE" value="13 组件拆分" />
+    <MESSAGE value="14 父子组件传值" />
+    <option name="LAST_COMMIT_MESSAGE" value="14 父子组件传值" />
   </component>
 </project>
