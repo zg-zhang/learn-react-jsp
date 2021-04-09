@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eeee7549-4da7-45e9-888c-45440c9db713" name="默认变更列表" comment="09 动态列表">
+    <list default="true" id="eeee7549-4da7-45e9-888c-45440c9db713" name="默认变更列表" comment="10 列表删除">
+      <change afterPath="$PROJECT_DIR$/src/XiaojiejieItem.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Xiaojiejie.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xiaojiejie.jsx" afterDir="false" />
     </list>
@@ -27,7 +28,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/package.json" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -55,7 +56,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1617959957691</updated>
-      <workItem from="1617959959789" duration="4066000" />
+      <workItem from="1617959959789" duration="4820000" />
+      <workItem from="1617968106528" duration="120000" />
+      <workItem from="1617968237073" duration="479000" />
     </task>
     <task id="LOCAL-00001" summary="05 HelloWorld">
       <created>1617965355401</created>
@@ -85,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617967032150</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="10 列表删除">
+      <created>1617967407079</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1617967407079</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,12 +111,14 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="05 HelloWorld" />
     <MESSAGE value="07 小姐姐菜单" />
     <MESSAGE value="08 数据绑定" />
     <MESSAGE value="09 动态列表" />
-    <option name="LAST_COMMIT_MESSAGE" value="09 动态列表" />
+    <MESSAGE value="10 列表删除" />
+    <option name="LAST_COMMIT_MESSAGE" value="10 列表删除" />
   </component>
 </project>
