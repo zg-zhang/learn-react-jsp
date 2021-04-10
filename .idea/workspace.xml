@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eeee7549-4da7-45e9-888c-45440c9db713" name="默认变更列表" comment="21 生命周期">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xiaojiejie.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xiaojiejie.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/XiaojiejieItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/XiaojiejieItem.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +59,7 @@
       <workItem from="1617959959789" duration="4820000" />
       <workItem from="1617968106528" duration="120000" />
       <workItem from="1617968237073" duration="4077000" />
-      <workItem from="1618017698468" duration="810000" />
+      <workItem from="1618017698468" duration="2062000" />
     </task>
     <task id="LOCAL-00001" summary="05 HelloWorld">
       <created>1617965355401</created>

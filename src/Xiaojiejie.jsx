@@ -8,38 +8,38 @@ class Xiaojiejie extends Component {
             inputValue: '',
             list: ['基础按摩', '精油按摩']
         }
-        console.log('[挂载阶段] 构造函数 constructor')
+        // console.log('[挂载阶段] 构造函数 constructor')
     }
 
-    static getDerivedStateFromProps() {
-        console.log('[挂载更新阶段] static getDerivedStateFromProps')
-        return null
-    }
-
-    componentDidMount() {
-        console.log('[挂载阶段] componentDidMount')
-    }
-
-    shouldComponentUpdate(nextProps, nextState, nextContext) {
-        console.log('[更新阶段] shouldComponentUpdate')
-        return true
-    }
-
-    static getSnapshotBeforeUpdate(prevProps, prevState) {
-        console.log('[更新阶段] static getSnapshotBeforeUpdate')
-        return null
-    }
-
-    componentDidUpdate(prevProps, prevState, snapshot) {
-        console.log('[更新阶段] componentDidUpdate')
-    }
-
-    componentWillUnmount() {
-        conosle.log('[卸载阶段] componentWillUnmount')
-    }
+    // static getDerivedStateFromProps() {
+    //     console.log('[挂载更新阶段] static getDerivedStateFromProps')
+    //     return null
+    // }
+    //
+    // componentDidMount() {
+    //     console.log('[挂载阶段] componentDidMount')
+    // }
+    //
+    // shouldComponentUpdate(nextProps, nextState, nextContext) {
+    //     console.log('[更新阶段] shouldComponentUpdate')
+    //     return true
+    // }
+    //
+    // static getSnapshotBeforeUpdate(prevProps, prevState) {
+    //     console.log('[更新阶段] static getSnapshotBeforeUpdate')
+    //     return null
+    // }
+    //
+    // componentDidUpdate(prevProps, prevState, snapshot) {
+    //     console.log('[更新阶段] componentDidUpdate')
+    // }
+    //
+    // componentWillUnmount() {
+    //     conosle.log('[卸载阶段] componentWillUnmount')
+    // }
 
     render() {
-        console.log('[挂载更新阶段] 渲染 render')
+        // console.log('[挂载更新阶段] 渲染 render')
         return (
             <Fragment>
                 <div>
