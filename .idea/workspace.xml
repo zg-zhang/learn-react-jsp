@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eeee7549-4da7-45e9-888c-45440c9db713" name="默认变更列表" comment="17 prop-types 校验传递值">
+    <list default="true" id="eeee7549-4da7-45e9-888c-45440c9db713" name="默认变更列表" comment="18 ref">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Xiaojiejie.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xiaojiejie.jsx" afterDir="false" />
     </list>
@@ -57,7 +57,8 @@
       <updated>1617959957691</updated>
       <workItem from="1617959959789" duration="4820000" />
       <workItem from="1617968106528" duration="120000" />
-      <workItem from="1617968237073" duration="2681000" />
+      <workItem from="1617968237073" duration="4077000" />
+      <workItem from="1618017698468" duration="596000" />
     </task>
     <task id="LOCAL-00001" summary="05 HelloWorld">
       <created>1617965355401</created>
@@ -115,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617970837750</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="18 ref">
+      <created>1617971373590</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1617971373590</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +150,7 @@
     <MESSAGE value="13 组件拆分" />
     <MESSAGE value="14 父子组件传值" />
     <MESSAGE value="17 prop-types 校验传递值" />
-    <option name="LAST_COMMIT_MESSAGE" value="17 prop-types 校验传递值" />
+    <MESSAGE value="18 ref" />
+    <option name="LAST_COMMIT_MESSAGE" value="18 ref" />
   </component>
 </project>
