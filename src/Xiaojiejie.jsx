@@ -1,4 +1,5 @@
 import React, {Component, Fragment} from "react";
+import axios from 'axios'
 import XiaojiejieItem from './XiaojiejieItem'
 
 class Xiaojiejie extends Component {
@@ -15,11 +16,17 @@ class Xiaojiejie extends Component {
     //     console.log('[挂载更新阶段] static getDerivedStateFromProps')
     //     return null
     // }
-    //
-    // componentDidMount() {
-    //     console.log('[挂载阶段] componentDidMount')
-    // }
-    //
+
+    componentDidMount() {
+        console.log('[挂载阶段] componentDidMount')
+        axios.get('https://mock.getapi.run/mock/b12db-1618020529472-4ce0-f2abd1eb/getData').then(res => {
+            console.log(res.data);
+            this.setState({
+                list: [...this.state.list, res.data.string]
+            })
+        })
+    }
+
     // shouldComponentUpdate(nextProps, nextState, nextContext) {
     //     console.log('[更新阶段] shouldComponentUpdate')
     //     return true
