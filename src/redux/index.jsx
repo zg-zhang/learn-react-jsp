@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import {Button, Input, List} from 'antd'
 import store from "./store";
 import { handleChangeAction, handleClickAction, handleDeleteItemAction } from "./store/actionCreators";
+import UI from "./ui";
 
 function Redux() {
     const [data, setData] = useState(store.getState())
@@ -30,26 +30,12 @@ function Redux() {
     store.subscribe(handleStoreChange)
 
     return (
-        <div>
-            <div>
-                <Input
-                    style={{ width: '250px', margin: '10px' }}
-                    value={data.inputValue}
-                    onChange={handleChange}
-                />
-                <Button
-                    type='primary'
-                    onClick={handleClick}
-                >增加</Button>
-            </div>
-            <div style={{ margin: '10px', width: '300px' }}>
-                <List
-                    bordered
-                    dataSource={data.list}
-                    renderItem={(item, index) => (<List.Item onClick={() => handleDelete(index)}>{item}</List.Item>)}
-                />
-            </div>
-        </div>
+        <UI
+            data={data}
+            handleChange={handleChange}
+            handleClick={handleClick}
+            handleDelete={handleDelete}
+        />
     )
 }
 
