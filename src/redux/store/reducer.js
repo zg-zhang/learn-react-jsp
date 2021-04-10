@@ -17,6 +17,10 @@ export default (state = defaultState, action) => {
         newState.list.push(newState.inputValue)
         newState.inputValue = ''
         return  newState
+    } else if (action.type === 'delete_item') {
+        let newState = JSON.parse(JSON.stringify(state))
+        newState.list.splice(action.value, 1)
+        return newState
     }
     return state
 }

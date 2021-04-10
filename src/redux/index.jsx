@@ -22,6 +22,14 @@ function Redux() {
         store.dispatch(action)
     }
 
+    function handleDelete(index) {
+        const action = {
+            type: 'delete_item',
+            value: index
+        }
+        store.dispatch(action)
+    }
+
     function handleStoreChange() {
         setData(store.getState())
     }
@@ -45,7 +53,7 @@ function Redux() {
                 <List
                     bordered
                     dataSource={data.list}
-                    renderItem={item => (<List.Item>{item}</List.Item>)}
+                    renderItem={(item, index) => (<List.Item onClick={() => handleDelete(index)}>{item}</List.Item>)}
                 />
             </div>
         </div>
