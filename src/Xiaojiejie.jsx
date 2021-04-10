@@ -1,6 +1,7 @@
 import React, {Component, Fragment} from "react";
 import axios from 'axios'
 import XiaojiejieItem from './XiaojiejieItem'
+import Boss from './Boss'
 
 class Xiaojiejie extends Component {
     constructor(props) {
@@ -67,6 +68,7 @@ class Xiaojiejie extends Component {
                         })
                     }
                 </ul>
+                <Boss />
             </Fragment>
         );
     }
