@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import {Button, Input, List} from 'antd'
 import store from "./store";
+import { handleChangeAction, handleClickAction, handleDeleteItemAction } from "./store/actionCreators";
 
 function Redux() {
     const [data, setData] = useState(store.getState())
@@ -8,25 +9,17 @@ function Redux() {
     function handleChange(e) {
         console.log(e.target.value)
         // 创建 Action
-        const action = {
-            type: 'change_input_value',
-            value: e.target.value
-        }
+        const action = handleChangeAction(e.target.value)
         store.dispatch(action)
     }
 
     function handleClick() {
-        const action = {
-            type: 'add_click'
-        }
+        const action = handleClickAction()
         store.dispatch(action)
     }
 
     function handleDelete(index) {
-        const action = {
-            type: 'delete_item',
-            value: index
-        }
+        const action = handleDeleteItemAction(index)
         store.dispatch(action)
     }
 
