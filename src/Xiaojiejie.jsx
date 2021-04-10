@@ -1,4 +1,5 @@
 import React, {Component, Fragment} from "react";
+import { CSSTransition, TransitionGroup } from 'react-transition-group'
 import axios from 'axios'
 import XiaojiejieItem from './XiaojiejieItem'
 import Boss from './Boss'
@@ -55,18 +56,28 @@ class Xiaojiejie extends Component {
                     <button onClick={this.addList.bind(this)}> 增加服务 </button>
                 </div>
                 <ul ref={ul => { this.ul = ul }}>
-                    {
-                        this.state.list.map((item, index) => {
-                            return (
-                               <XiaojiejieItem
-                                   content={item}
-                                   index={index}
-                                   handleClick={this.deleteItem.bind(this)}
-                                   key={index + item}
-                               />
-                            )
-                        })
-                    }
+                   <TransitionGroup>
+                       {
+                           this.state.list.map((item, index) => {
+                               return (
+                                   <CSSTransition
+                                       timeout={1000}
+                                       classNames='boss-text'
+                                       unmountOnExit
+                                       appear={true}
+                                       key={index+item}
+                                   >
+                                       <XiaojiejieItem
+                                           content={item}
+                                           index={index}
+                                           handleClick={this.deleteItem.bind(this)}
+                                           key={index + item}
+                                       />
+                                   </CSSTransition>
+                               )
+                           })
+                       }
+                   </TransitionGroup>
                 </ul>
                 <Boss />
             </Fragment>
