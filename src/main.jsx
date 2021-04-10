@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
 import App from './App'
-import Xiaojiejie from "./Xiaojiejie";
+import Xiaojiejie from "./react/Xiaojiejie";
 
 ReactDOM.render(
   <React.StrictMode>

@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eeee7549-4da7-45e9-888c-45440c9db713" name="默认变更列表" comment="27 react-transition-group">
-      <change beforePath="$PROJECT_DIR$/src/Xiaojiejie.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xiaojiejie.jsx" afterDir="false" />
+    <list default="true" id="eeee7549-4da7-45e9-888c-45440c9db713" name="默认变更列表" comment="28 多DOM动画">
+      <change beforePath="$PROJECT_DIR$/src/Boss.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/react/Boss.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xiaojiejie.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/react/Xiaojiejie.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/XiaojiejieItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/react/XiaojiejieItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/react/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +32,11 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\learn-react-jsp\src\react" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -57,7 +66,7 @@
       <workItem from="1617959959789" duration="4820000" />
       <workItem from="1617968106528" duration="120000" />
       <workItem from="1617968237073" duration="4077000" />
-      <workItem from="1618017698468" duration="4478000" />
+      <workItem from="1618017698468" duration="4622000" />
     </task>
     <task id="LOCAL-00001" summary="05 HelloWorld">
       <created>1617965355401</created>
@@ -157,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618022093924</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="28 多DOM动画">
+      <created>1618022353137</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1618022353137</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +206,7 @@
     <MESSAGE value="24 axios" />
     <MESSAGE value="26 基础动画" />
     <MESSAGE value="27 react-transition-group" />
-    <option name="LAST_COMMIT_MESSAGE" value="27 react-transition-group" />
+    <MESSAGE value="28 多DOM动画" />
+    <option name="LAST_COMMIT_MESSAGE" value="28 多DOM动画" />
   </component>
 </project>
