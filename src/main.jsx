@@ -8,7 +8,7 @@ import Redux from './redux'
 import ReactRedux from "./react-redux";
 import { Provider } from "react-redux";
 import store from "./react-redux/store";
-import ReactRouter from "./react-router/demo-1";
+import ReactRouter from "./react-router";
 
 ReactDOM.render(
   // <Provider store={store}>
