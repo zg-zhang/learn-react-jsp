@@ -10,7 +10,7 @@
 │   ├─ index.html           首页的模板文件
 │   ├─ mainifest.json       移动端配置文件
 ├─ src
-│   ├─ index.js             入口文件
+│   ├─ index.jsx             入口文件
 │   ├─ app.js               根模块
 │   └─ reportWebVitals.js   用于 PWA 开发
 ```
