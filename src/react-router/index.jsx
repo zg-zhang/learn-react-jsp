@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 import Index from "./pages";
 import List from "./pages/List";
+import Home from "./pages/Home";
 
 function ReactRouter() {
     return (
@@ -14,6 +15,7 @@ function ReactRouter() {
 
             <Route path='/' exact><Index /></Route>
             <Route path='/list/:id' exact><List /></Route>
+            <Route path='/home' exact><Home /></Route>
         </Router>
     )
 }

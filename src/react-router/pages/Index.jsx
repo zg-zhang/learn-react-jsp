@@ -1,12 +1,18 @@
-import React from "react";
-import {Link} from "react-router-dom";
+import React, {useEffect} from "react";
+import {Link, useHistory} from "react-router-dom";
 
-function Index() {
+function Index(props) {
     const list = [
         {cid:123,title:'技术胖的个人博客-1'},
         {cid:456,title:'技术胖的个人博客-2'},
         {cid:789,title:'技术胖的个人博客-3'},
     ]
+
+    const history = useHistory()
+
+    useEffect(() => {
+        history.push('/home')
+    }, [])
 
     return (
         <ul>
