@@ -5,11 +5,15 @@ import 'antd/dist/antd.css'
 import App from './App'
 import Xiaojiejie from "./react/Xiaojiejie";
 import Redux from './redux'
+import ReactRedux from "./react-redux";
+import { Provider } from "react-redux";
+import store from "./react-redux/store";
 
 ReactDOM.render(
-  <React.StrictMode>
+  <Provider store={store}>
     {/*<Xiaojiejie />*/}
-    <Redux />
-  </React.StrictMode>,
+    {/*<Redux />*/}
+    <ReactRedux />
+  </Provider>,
   document.getElementById('root')
 )
