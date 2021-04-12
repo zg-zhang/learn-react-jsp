@@ -9,6 +9,7 @@ import ReactRedux from "./react-redux";
 import { Provider } from "react-redux";
 import store from "./react-redux/store";
 import ReactRouter from "./react-router";
+import ReactHooks from "./react-hooks";
 
 ReactDOM.render(
   // <Provider store={store}>
@@ -16,6 +17,7 @@ ReactDOM.render(
   //   {/*<Redux />*/}
   //   {/*<ReactRedux />*/}
   // </Provider>,
-    <ReactRouter />,
+  //   <ReactRouter />,
+    <ReactHooks />,
     document.getElementById('root')
 )
