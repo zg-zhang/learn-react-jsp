@@ -1,7 +1,11 @@
-import React, {useState} from 'react'
+import React, {useEffect, useState} from 'react'
 
 function ReactHooks() {
     const [num, setNum] = useState(0)
+
+    useEffect(() => {
+        console.log(`useEffect => You clicked ${num} times`)
+    })
 
     return (
         <div>
