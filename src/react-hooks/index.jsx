@@ -1,5 +1,6 @@
 import React, {createContext, useReducer, useContext} from 'react'
 import {Button} from "antd";
+import Redux from "./redux";
 
 const CountContext = createContext()
 
@@ -35,6 +36,8 @@ function ReactHooks() {
                     <List />
                 </Index>
             </CountContext.Provider>
+
+            <Redux />
         </div>
     )
 }
