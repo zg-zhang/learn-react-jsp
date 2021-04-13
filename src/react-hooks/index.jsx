@@ -1,10 +1,19 @@
-import React, {createContext, useState, useContext} from 'react'
+import React, {createContext, useReducer, useContext} from 'react'
 import {Button} from "antd";
 
 const CountContext = createContext()
 
 function ReactHooks() {
-    const [num, setNum] = useState(0)
+    const [num, dispatch] = useReducer((state, action) => {
+        switch (action) {
+            case 'add':
+                return state + 1
+            case 'sub':
+                return state - 1
+            default:
+                return state
+        }
+    }, 0)
 
     function Index(props) {
         return <h2>Index {props.children}</h2>
@@ -17,9 +26,9 @@ function ReactHooks() {
 
     return (
         <div>
-            <Button onClick={() => {setNum(num + 1)}}> + </Button>
+            <Button onClick={() => dispatch('add')}> + </Button>
             <div>{num}</div>
-            <Button onClick={() => {setNum(num - 1)}}> - </Button>
+            <Button onClick={() => dispatch('sub')}> - </Button>
 
             <CountContext.Provider value={num}>
                 <Index>
