@@ -1,6 +1,7 @@
 import React, {createContext, useReducer, useContext} from 'react'
 import {Button} from "antd";
 import Redux from "./redux";
+import Memo from "./memo";
 
 const CountContext = createContext()
 
@@ -38,6 +39,8 @@ function ReactHooks() {
             </CountContext.Provider>
 
             <Redux />
+
+            <Memo />
         </div>
     )
 }
