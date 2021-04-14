@@ -3,6 +3,7 @@ import {Button} from "antd";
 import Redux from "./redux";
 import Memo from "./memo";
 import Ref from "./ref";
+import useWinSize from "./useWinSize";
 
 const CountContext = createContext()
 
@@ -17,6 +18,8 @@ function ReactHooks() {
                 return state
         }
     }, 0)
+
+    const size = useWinSize()
 
     function Index(props) {
         return <h2>Index {props.children}</h2>
@@ -44,6 +47,8 @@ function ReactHooks() {
             <Memo />
 
             <Ref />
+
+            <div>页面Size: {size.width} - {size.height}</div>
         </div>
     )
 }
