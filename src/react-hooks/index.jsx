@@ -2,6 +2,7 @@ import React, {createContext, useReducer, useContext} from 'react'
 import {Button} from "antd";
 import Redux from "./redux";
 import Memo from "./memo";
+import Ref from "./ref";
 
 const CountContext = createContext()
 
@@ -41,6 +42,8 @@ function ReactHooks() {
             <Redux />
 
             <Memo />
+
+            <Ref />
         </div>
     )
 }
